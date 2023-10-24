@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+  .container_review {
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 140px;
+  }
+
+  .container {
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .title_hidden {
+    display: none;
+  }
+
+  .title_highlight {
+    background-color: rgb(232, 235, 252);
+  }
+
+  .title {
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 600;
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 47px;
+    margin-right: 132px;
+    width: 483px;
+  }
+}
+
+.slider {
+  margin-top: 47px;
+}
+
+.button {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid rgba(224, 224, 224, 1);
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid rgba(98, 72, 255, 1);
+}
+
+/* .reviewer {
+} */
+
+.avatar {
+  margin-right: 30px;
+}
+
+.quotes {
+  display: none;
+}
+.person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.name {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 18px;
+}
+
+.position {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 24px;
+  margin: 0 0 31px 0;
+}
+
+.counter_first {
+  color: rgba(98, 72, 255, 1);
+  font-family: 'Museo Sans Cyrl';
+  font-size: 15px;
+}
+.counter_second {
+  color: rgba(79, 98, 246, 1);
+  font-family: 'Museo Sans Cyrl';
+  font-size: 15px;
+}

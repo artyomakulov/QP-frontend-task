@@ -1,11 +1,15 @@
 import React from 'react';
 import { Header } from 'components/Header/Header';
 import { Hero } from 'components/Hero/Hero';
+import { Main } from 'components/Main/Main';
+import { Reviews } from 'components/Reviews/Reviews';
 export const App = () => {
   return (
     <>
       <Header />
       <Hero />
+      <Main/>
+      <Reviews/>
     </>
   );
 };

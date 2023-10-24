@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
   }
 
   .navigation {
@@ -25,7 +26,7 @@
   }
 
   .nav_item {
-    font-family: Museo Sans Cyrl;
+    font-family: 'Museo Sans Cyrl';
     font-size: 15px;
     font-weight: 500;
     margin-right: 32px;
@@ -42,7 +43,7 @@
   }
 
   .button_lang {
-    font-family: Museo Sans Cyrl;
+    font-family: 'Museo Sans Cyrl';
     font-size: 15px;
     font-weight: 500;
     display: flex;
@@ -62,7 +63,7 @@
   .button_sign {
     display: flex;
     align-items: center;
-    font-family: Museo Sans Cyrl;
+    font-family: 'Museo Sans Cyrl';
     width: 168px;
     height: 40px;
     margin-right: 60px;

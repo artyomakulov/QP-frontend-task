@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+  .container_main {
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 140px;
+  }
+  .content {
+    margin-left: 120px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .item {
+    width: 479px;
+    border-radius: 30px;
+    border: 2px solid rgba(98, 72, 255, 1);
+  }
+
+  .item_content {
+    padding: 32px;
+  }
+
+  .item:nth-child(odd) {
+    margin-top: -50px;
+  }
+
+  .item:nth-child(even) {
+    margin-left: 615px;
+    margin-top: -70px;
+  }
+
+  .title {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 56px;
+    margin-bottom: 110px;
+  }
+
+  .title_highlight {
+    background-color: rgb(232, 235, 252);
+  }
+
+  .step {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 15px;
+    color: rgba(98, 72, 255, 1);
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .step_title {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+
+  .step_text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .list {
+    padding: 0;
+  }
+}
