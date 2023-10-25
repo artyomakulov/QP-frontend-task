@@ -110,6 +110,10 @@
     margin-top: 10px;
     margin-bottom: 80px;
   }
+  .button:disabled {
+    background-color: rgba(224, 224, 224, 1);
+    color: rgba(130, 130, 130, 1);
+  }
   .errorContainer {
     position: relative;
   }

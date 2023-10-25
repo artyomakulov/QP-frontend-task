@@ -2,17 +2,39 @@ import { useState } from 'react';
 import css from './Contacts.module.css';
 
 export const Contacts = () => {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [isValidEmail, setIsValidEmail] = useState(null);
   const [isIncorrectEmail, setIsIncorrectEmail] = useState(false);
+  const [message, setMessage] = useState('');
+  const [isFormValid, setIsFormValid] = useState(false);
 
   const handleEmailChange = e => {
     const newEmail = e.target.value;
     setEmail(newEmail);
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+/;
     setIsValidEmail(newEmail === '' ? null : emailRegex.test(newEmail));
     setIsIncorrectEmail(!emailRegex.test(newEmail));
+    validateForm();
+  };
+
+  const handleInputChange = e => {
+    const { name, value } = e.target;
+
+    if (name === 'name') {
+      setName(value);
+    } else if (name === 'message') {
+      setMessage(value);
+    }
+
+    validateForm();
+  };
+
+  const validateForm = () => {
+    setIsFormValid(
+      name !== '' && email !== '' && isValidEmail && message !== ''
+    );
   };
 
   return (
@@ -46,6 +68,9 @@ export const Contacts = () => {
                   className={css.input}
                   type="text"
                   placeholder="Name"
+                  name="name"
+                  value={name}
+                  onChange={handleInputChange}
                   required
                 />
               </div>
@@ -60,6 +85,7 @@ export const Contacts = () => {
                   }`}
                   type="email"
                   placeholder="Email"
+                  name="email"
                   value={email}
                   onChange={handleEmailChange}
                   required
@@ -76,11 +102,18 @@ export const Contacts = () => {
                 <textarea
                   className={`${css.input} ${css.message}`}
                   placeholder="Message"
+                  name="message"
+                  value={message}
+                  onChange={handleInputChange}
                   required
                 />
               </div>
               <div className={css.btn_pos}>
-                <button className={css.button} type="submit">
+                <button
+                  className={css.button}
+                  type="submit"
+                  disabled={!isFormValid}
+                >
                   SEND
                 </button>
               </div>

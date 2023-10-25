@@ -9,12 +9,36 @@ export const Header = () => {
           <div className={css.logo}>LOGO</div>
           <nav>
             <ul className={css.list}>
-              <li className={css.nav_item}>How it works</li>
-              <li className={css.nav_item}>About</li>
-              <li className={css.nav_item}>Instructions</li>
-              <li className={css.nav_item}>Accounts</li>
-              <li className={css.nav_item}>Platforms</li>
-              <li className={css.nav_item}>Contact</li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  How it works
+                </a>
+              </li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  About
+                </a>
+              </li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  Instructions
+                </a>
+              </li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  Accounts
+                </a>
+              </li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  Platforms
+                </a>
+              </li>
+              <li className={css.nav_item}>
+                <a href="/" className={css.link}>
+                  Contact
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

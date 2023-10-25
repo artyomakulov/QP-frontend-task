@@ -32,12 +32,36 @@ export const Footer = () => {
           <div>
             <nav>
               <ul className={css.list}>
-                <li className={css.list_item}>About us</li>
-                <li className={css.list_item}>Instructions</li>
-                <li className={css.list_item}>Platforms</li>
-                <li className={css.list_item}>Contact Us</li>
-                <li className={css.list_item}>Sign in</li>
-                <li className={css.list_item}>Sign up for free</li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    About us
+                  </a>
+                </li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    Instructions
+                  </a>
+                </li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    Platforms
+                  </a>
+                </li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    Contact Us
+                  </a>
+                </li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    Sign in
+                  </a>
+                </li>
+                <li className={css.list_item}>
+                  <a href="/" className={css.link}>
+                    Sign up for free
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
