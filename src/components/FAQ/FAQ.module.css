@@ -1,0 +1,46 @@
+
+@media (min-width: 768px) {
+  .container_faq {
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 140px;
+  }
+  .container {
+    margin-left: 120px;
+  }
+  .title {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+  .title_highlight {
+    background-color: rgb(232, 235, 252);
+  }
+  .question {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    margin: 0;
+  }
+  .item {
+    width: 995px;
+    border: 2px solid rgba(98, 72, 255, 1);
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  .question_form {
+    padding: 33px 30px 33px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .answer {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(79, 79, 79, 1);
+    margin-left: 40px;
+    margin-right: 205px;
+    margin-top: -12px;
+    margin-bottom: 32px;
+  }
+}
