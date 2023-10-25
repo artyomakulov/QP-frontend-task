@@ -1,6 +1,20 @@
+import { useState } from 'react';
 import css from './Contacts.module.css';
 
 export const Contacts = () => {
+  const [email, setEmail] = useState('');
+  const [isValidEmail, setIsValidEmail] = useState(null);
+  const [isIncorrectEmail, setIsIncorrectEmail] = useState(false);
+
+  const handleEmailChange = e => {
+    const newEmail = e.target.value;
+    setEmail(newEmail);
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    setIsValidEmail(newEmail === '' ? null : emailRegex.test(newEmail));
+    setIsIncorrectEmail(!emailRegex.test(newEmail));
+  };
+
   return (
     <>
       <div className={css.container_contacts}>
@@ -37,11 +51,26 @@ export const Contacts = () => {
               </div>
               <div>
                 <input
-                  className={css.input}
+                  className={`${css.input} ${
+                    isValidEmail === true
+                      ? css.valid
+                      : isValidEmail === false
+                      ? css.invalid
+                      : ''
+                  }`}
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={handleEmailChange}
                   required
                 />
+                <div className={css.errorMsgContainer}>
+                  {isIncorrectEmail && (
+                    <div className={css.errorContainer}>
+                      <p className={css.errorMsg}>Incorrect email type</p>
+                    </div>
+                  )}
+                </div>
               </div>
               <div>
                 <textarea
