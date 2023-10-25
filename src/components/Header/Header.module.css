@@ -93,7 +93,9 @@
 .button_sign:active {
   background-color: rgba(53, 75, 244, 1);
 }
-
+.burger {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .container_header {
     width: 768px;
@@ -104,5 +106,15 @@
   }
   .button_lang {
     display: none;
+  }
+  .button_sign {
+    margin-right: 40px;
+  }
+  .burger {
+    display: block;
+    border: 0 solid transparent;
+    background-color: #fff;
+    margin-right: 40px;
+    cursor: pointer;
   }
 }

@@ -1,5 +1,6 @@
 import css from './Header.module.css';
 import vector from '../../images/vector.svg';
+import burger from '../../images/burger.svg';
 
 export const Header = () => {
   return (
@@ -54,6 +55,9 @@ export const Header = () => {
           </button>
           <button className={css.button_sign}>Sign in for free</button>
         </div>
+        <button className={css.burger}>
+          <img src={burger} alt="burger menu" width={24} />
+        </button>
       </div>
     </header>
   );
