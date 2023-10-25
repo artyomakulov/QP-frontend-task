@@ -104,6 +104,7 @@
   .container_review {
     width: 768px;
     margin-bottom: 120px;
+    position: relative;
   }
   .container {
     display: block;
@@ -151,10 +152,10 @@
   }
   .leftBtn {
     left: 35px;
-    bottom: -1740px;
+    bottom: 140px;
   }
   .rightBtn {
-    right: -15px;
-    bottom: -1740px;
+    right: 25px;
+    bottom: 140px;
   }
 }

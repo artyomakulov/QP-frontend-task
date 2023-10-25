@@ -57,7 +57,7 @@ export const FAQ = () => {
             <span className={css.title_highlight}>questions</span>
           </h2>
           <div>
-            <ul>
+            <ul className={css.list_item}>
               {faqData.map(item => (
                 <li className={css.item} key={item.id}>
                   <div className={css.question_form}>
