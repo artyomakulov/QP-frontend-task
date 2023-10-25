@@ -5,6 +5,7 @@ import { Main } from 'components/Main/Main';
 import { Reviews } from 'components/Reviews/Reviews';
 import { FAQ } from 'components/FAQ/FAQ';
 import { Contacts } from 'components/Contacts/Contacts';
+import { Footer } from 'components/Footer/Footer';
 
 
 export const App = () => {
@@ -16,6 +17,7 @@ export const App = () => {
       <Reviews />
       <FAQ />
       <Contacts/>
+      <Footer/>
     </>
   );
 };

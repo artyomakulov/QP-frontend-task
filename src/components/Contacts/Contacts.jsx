@@ -30,11 +30,11 @@ export const Contacts = () => {
               This site is owned and operated by Kode Tech Solutions LTD
             </p>
             <p className={css.type_contact}>Phone:</p>
-            <p className={css.type_contact_text}>442038857261</p>
+            <p className={css.text2}>442038857261</p>
             <p className={css.type_contact}>Email:</p>
-            <p className={css.type_contact_text}>help@google.com</p>
+            <p className={css.text2}>help@google.com</p>
             <p className={css.type_contact}>Address:</p>
-            <p className={css.type_contact_text}>
+            <p className={css.text2}>
               Trust Company Complex, Ajeltake Road, Ajeltake Island, <br />
               Majuro, Republic of the Marshall Islands, MH 96960
             </p>

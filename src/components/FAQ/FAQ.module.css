@@ -21,6 +21,7 @@
     height: 28px;
     font-size: 24px;
     margin: 0;
+    color: rgba(51, 51, 51, 1);
   }
   .item {
     width: 995px;
@@ -43,6 +44,7 @@
     margin-right: 205px;
     margin-top: -12px;
     margin-bottom: 32px;
+    line-height: 27px;
   }
   .button {
     border: 0;
