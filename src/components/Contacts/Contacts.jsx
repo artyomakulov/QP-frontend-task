@@ -90,7 +90,7 @@ export const Contacts = () => {
                   onChange={handleEmailChange}
                   required
                 />
-                <div className={css.errorMsgContainer}>
+                <div>
                   {isIncorrectEmail && (
                     <div className={css.errorContainer}>
                       <p className={css.errorMsg}>Incorrect email type</p>
