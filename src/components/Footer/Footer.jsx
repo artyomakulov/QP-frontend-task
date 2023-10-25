@@ -5,7 +5,11 @@ export const Footer = () => {
     <footer className={css.container_footer}>
       <div>
         <div className={css.container}>
-          <div className={css.logo}><a href="/" className={css.link}>LOGO</a></div>
+          <div className={css.logo}>
+            <a href="/" className={css.link}>
+              LOGO
+            </a>
+          </div>
           <div className={css.text_block}>
             <h3 className={css.title}>Information and high risk warning:</h3>
             <p className={css.text}>
@@ -17,7 +21,7 @@ export const Footer = () => {
               investment objectives, experience level, and risk tolerance.
             </p>
           </div>
-          <div>
+          <div className={css.text_block}>
             <h3 className={css.title}>Legal disclaimer:</h3>
             <p className={css.text}>
               Forex trading entails significant risks and is not appropriate for
