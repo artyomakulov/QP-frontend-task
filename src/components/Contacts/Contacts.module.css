@@ -1,0 +1,109 @@
+@media (min-width: 768px) {
+  .container_contacts {
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 140px;
+    background-color: rgb(232, 235, 252);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts {
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+  }
+  .title {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 56px;
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+  }
+  .text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(79, 79, 79, 1);
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+  .text2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(79, 79, 79, 1);
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .type_contact {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 15px;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .type_contact_text {
+    margin: 0;
+    color: rgba(79, 79, 79, 1);
+  }
+  .message_form_container {
+    width: 585px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid rgba(98, 72, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+    margin-top: 134px;
+    margin-bottom: 134px;
+  }
+  .message_form {
+    margin-top: 80px;
+  }
+  .input {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    width: 405px;
+    height: 40px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding-left: 16px;
+    color: rgba(130, 130, 130, 1);
+  }
+  .input:focus {
+    border-color: rgba(79, 79, 79, 1);
+    color: rgba(79, 79, 79, 1);
+  }
+  .input:hover {
+    border-color: rgba(79, 79, 79, 1);
+  }
+  .input:focus:not(:focus-visible) {
+    outline: none;
+  }
+  .message {
+    height: 86px;
+    resize: none;
+    padding-top: 7px;
+  }
+
+  .btn_pos {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    width: 172px;
+    height: 54px;
+    background-color: rgba(98, 72, 255, 1);
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    border-radius: 60px;
+    border: 0 solid transparent;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+}

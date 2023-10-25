@@ -4,6 +4,9 @@ import { Hero } from 'components/Hero/Hero';
 import { Main } from 'components/Main/Main';
 import { Reviews } from 'components/Reviews/Reviews';
 import { FAQ } from 'components/FAQ/FAQ';
+import { Contacts } from 'components/Contacts/Contacts';
+
+
 export const App = () => {
   return (
     <>
@@ -12,6 +15,7 @@ export const App = () => {
       <Main />
       <Reviews />
       <FAQ />
+      <Contacts/>
     </>
   );
 };
