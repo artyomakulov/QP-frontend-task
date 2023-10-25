@@ -1,6 +1,8 @@
 import css from './Main.module.css';
 import doteLineLeft from '../../images/doteLineLeft.svg';
 import doteLineRight from '../../images/doteLineRight.svg';
+import newLineRight from '../../images/newLineRight.svg';
+import newLineLeft from '../../images/newLineLeft.svg';
 
 export const Main = () => {
   return (
@@ -24,6 +26,7 @@ export const Main = () => {
                 </div>
               </div>
               <img src={doteLineLeft} alt="line" className={css.line1} />
+              <img src={newLineRight} alt="line" className={css.new_line1} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>
@@ -35,6 +38,7 @@ export const Main = () => {
                 </p>
               </div>
               <img src={doteLineRight} alt="line" className={css.line3} />
+              <img src={newLineRight} alt="line" className={css.new_line3} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>
@@ -46,6 +50,7 @@ export const Main = () => {
                 </p>
               </div>
               <img src={doteLineLeft} alt="line" className={css.line2} />
+              <img src={newLineLeft} alt="line" className={css.new_line2} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>

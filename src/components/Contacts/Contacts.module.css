@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+
   .container_contacts {
     width: 1440px;
     margin: auto;
@@ -125,4 +125,9 @@
     position: absolute;
     top: -45px;
   }
-}
+
+  @media screen and (max-width: 767px) {
+    .container_contacts {
+      width: 767px;
+    }
+  }

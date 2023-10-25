@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+
   .container_faq {
     width: 1440px;
     margin: auto;
@@ -54,4 +54,9 @@
   .button.rotate {
     transform: rotate(45deg);
   }
-}
+
+  @media screen and (max-width: 767px) {
+    .container_faq {
+      width: 767px;
+    }
+  }

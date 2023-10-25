@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+
   .container_footer {
     width: 1440px;
     margin: auto;
@@ -58,4 +58,9 @@
   .lower_item {
     color: rgba(130, 130, 130, 1);
   }
-}
+
+  @media screen and (max-width: 767px) {
+    .container_footer {
+      width: 767px;
+    }
+  }
