@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className={css.container_footer}>
       <div>
         <div className={css.container}>
-          <div className={css.logo}>LOGO</div>
+          <div className={css.logo}><a href="/" className={css.link}>LOGO</a></div>
           <div className={css.text_block}>
             <h3 className={css.title}>Information and high risk warning:</h3>
             <p className={css.text}>

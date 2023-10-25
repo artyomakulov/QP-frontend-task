@@ -6,7 +6,11 @@ export const Header = () => {
     <header>
       <div className={css.container_header}>
         <div className={css.navigation}>
-          <div className={css.logo}>LOGO</div>
+          <div className={css.logo}>
+            <a href="/" className={css.link}>
+              LOGO
+            </a>
+          </div>
           <nav>
             <ul className={css.list}>
               <li className={css.nav_item}>

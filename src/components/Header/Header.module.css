@@ -65,6 +65,10 @@
   .button_lang img {
     margin-left: 8px;
   }
+  .button_lang:hover {
+    background-color: rgba(98, 72, 255, 1);
+    color: #fff;
+  }
 
   .button_sign {
     display: flex;
