@@ -1,4 +1,6 @@
 import css from './Main.module.css';
+import doteLineLeft from '../../images/doteLineLeft.svg';
+import doteLineRight from '../../images/doteLineRight.svg';
 
 export const Main = () => {
   return (
@@ -21,6 +23,7 @@ export const Main = () => {
                   </p>
                 </div>
               </div>
+              <img src={doteLineLeft} alt="line" className={css.line1} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>
@@ -31,6 +34,7 @@ export const Main = () => {
                   documents quickly and get approved in minutes.
                 </p>
               </div>
+              <img src={doteLineRight} alt="line" className={css.line3} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>
@@ -41,6 +45,7 @@ export const Main = () => {
                   secure deposit form and follow the steps.
                 </p>
               </div>
+              <img src={doteLineLeft} alt="line" className={css.line2} />
             </li>
             <li className={css.item}>
               <div className={css.item_content}>

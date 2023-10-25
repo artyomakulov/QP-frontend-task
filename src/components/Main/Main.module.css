@@ -3,6 +3,7 @@
     width: 1440px;
     margin: auto;
     margin-bottom: 140px;
+    position: relative;
   }
   .content {
     margin-left: 120px;
@@ -15,6 +16,7 @@
     width: 479px;
     border-radius: 30px;
     border: 2px solid rgba(98, 72, 255, 1);
+    /* position: relative; */
   }
 
   .item_content {
@@ -27,7 +29,7 @@
 
   .item:nth-child(even) {
     margin-left: 615px;
-    margin-top: -70px;
+    margin-top: -50px;
   }
 
   .title {
@@ -70,5 +72,20 @@
 
   .list {
     padding: 0;
+  }
+  .line1 {
+    position: absolute;
+    left: 605px;
+    bottom: 600px;
+  }
+  .line2 {
+    position: absolute;
+    left: 605px;
+    bottom: 235px;
+  }
+  .line3 {
+    position: absolute;
+    left: 355px;
+    bottom: 415px;
   }
 }
