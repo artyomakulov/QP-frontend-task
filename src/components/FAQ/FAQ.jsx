@@ -5,8 +5,7 @@ import { useState } from 'react';
 export const FAQ = () => {
   const [openQuestion, setOpenQuestion] = useState(null);
 
-
-  const toggleAnswer = (questionId) => {
+  const toggleAnswer = questionId => {
     setOpenQuestion(openQuestion === questionId ? null : questionId);
   };
 
@@ -19,7 +18,8 @@ export const FAQ = () => {
     {
       id: 2,
       question: 'What platforms will I be able to use?',
-      answer: 'We provide only the best trading software. The trading terminal MetaTrader4 is the most popular and convenient platform for access to global exchanges. You can work anywhere. All you need is the Internet because the necessary trading tools are already collected in one place and are available in a couple of clicks. Use only the best and develop with us!',
+      answer:
+        'We provide only the best trading software. The trading terminal MetaTrader4 is the most popular and convenient platform for access to global exchanges. You can work anywhere. All you need is the Internet because the necessary trading tools are already collected in one place and are available in a couple of clicks. Use only the best and develop with us!',
     },
     {
       id: 3,
@@ -58,11 +58,16 @@ export const FAQ = () => {
           </h2>
           <div>
             <ul>
-              {faqData.map((item) => (
+              {faqData.map(item => (
                 <li className={css.item} key={item.id}>
                   <div className={css.question_form}>
                     <p className={css.question}>{item.question}</p>
-                    <button onClick={() => toggleAnswer(item.id)}>
+                    <button
+                      className={`${css.button} ${
+                        openQuestion === item.id ? css.rotate : ''
+                      }`}
+                      onClick={() => toggleAnswer(item.id)}
+                    >
                       <img src={plus} alt="open" width={32} />
                     </button>
                   </div>
@@ -78,7 +83,3 @@ export const FAQ = () => {
     </>
   );
 };
-
-
-
-
