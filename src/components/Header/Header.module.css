@@ -94,9 +94,9 @@
   background-color: rgba(53, 75, 244, 1);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container_header {
-    width: 767px;
+    width: 768px;
     justify-content: end;
   }
   .navigation {

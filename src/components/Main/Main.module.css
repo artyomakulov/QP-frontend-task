@@ -93,9 +93,9 @@ ul {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container_main {
-    width: 767px;
+    width: 768px;
     margin-bottom: 120px;
   }
   .content {

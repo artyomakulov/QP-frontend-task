@@ -59,8 +59,8 @@
     color: rgba(130, 130, 130, 1);
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .container_footer {
-      width: 767px;
+      width: 768px;
     }
   }

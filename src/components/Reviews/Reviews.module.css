@@ -1,40 +1,42 @@
+.container_review {
+  width: 1440px;
+  margin: auto;
+  margin-bottom: 140px;
+}
 
-  .container_review {
-    width: 1440px;
-    margin: auto;
-    margin-bottom: 140px;
-  }
+.container {
+  display: flex;
+  margin-left: 120px;
+}
 
-  .container {
-    display: flex;
-    margin-left: 120px;
-  }
+.title_hidden {
+  display: none;
+}
 
-  .title_hidden {
-    display: none;
-  }
+.title_highlight {
+  background-color: rgb(232, 235, 252);
+}
 
-  .title_highlight {
-    background-color: rgb(232, 235, 252);
-  }
-
-  .title {
-    font-family: 'Museo Sans Cyrl';
-    font-weight: 600;
-    font-size: 56px;
-    margin-top: 0;
-    margin-bottom: 47px;
-    margin-right: 132px;
-    width: 483px;
-    color: rgba(51, 51, 51, 1);
-  }
-
+.title {
+  font-family: 'Museo Sans Cyrl';
+  font-weight: 600;
+  font-size: 56px;
+  margin-top: 0;
+  margin-bottom: 47px;
+  margin-right: 132px;
+  width: 483px;
+  color: rgba(51, 51, 51, 1);
+}
 
 .slider {
+  display: flex;
   margin-top: 47px;
 }
 
-.button {
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 48px;
   height: 48px;
   background-color: #fff;
@@ -43,8 +45,11 @@
   cursor: pointer;
 }
 
-.button:hover {
+.buttons:hover {
   border: 1px solid rgba(98, 72, 255, 1);
+}
+.buttons2 {
+  display: none;
 }
 .reviewer {
   position: relative;
@@ -95,8 +100,61 @@
   font-family: 'Museo Sans Cyrl';
   font-size: 15px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container_review {
-    width: 767px;
+    width: 768px;
+    margin-bottom: 120px;
+  }
+  .container {
+    display: block;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .person {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .text {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .reviewer {
+    display: block;
+    position: relative;
+  }
+  .quotes {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .numbers {
+    display: flex;
+    justify-content: center;
+  }
+  .slider {
+    display: none;
+  }
+  .buttons2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid rgba(224, 224, 224, 1);
+    cursor: pointer;
+  }
+  .leftBtn {
+    left: 35px;
+    bottom: -1740px;
+  }
+  .rightBtn {
+    right: -15px;
+    bottom: -1740px;
   }
 }
