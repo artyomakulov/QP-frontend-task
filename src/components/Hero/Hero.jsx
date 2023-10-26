@@ -1,5 +1,7 @@
 import css from './Hero.module.css';
 import hero from '../../images/hero.png';
+import mobImage from '../../images/imgMob.png'
+
 export const Hero = () => {
   return (
     <div className={css.container_hero}>
@@ -15,6 +17,9 @@ export const Hero = () => {
       </div>
       <div className={css.image}>
         <img src={hero} alt="background" />
+      </div>
+      <div className={css.mobImage}>
+        <img src={mobImage} alt='background'/>
       </div>
     </div>
   );

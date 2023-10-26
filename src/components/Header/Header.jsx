@@ -12,12 +12,12 @@ export const Header = () => {
   return (
     <header>
       <div className={css.container_header}>
+        <div className={css.logo}>
+          <a href="/" className={css.link}>
+            LOGO
+          </a>
+        </div>
         <div className={css.navigation}>
-          <div className={css.logo}>
-            <a href="/" className={css.link}>
-              LOGO
-            </a>
-          </div>
           <nav>
             <ul className={css.list}>
               <li className={css.nav_item}>

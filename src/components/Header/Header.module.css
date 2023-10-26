@@ -104,6 +104,9 @@
     width: 768px;
     justify-content: end;
   }
+  .logo {
+    display: none;
+  }
   .navigation {
     display: none;
   }
@@ -143,5 +146,22 @@
   }
   .nav_item {
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container_header {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    display: block;
+    margin-left: 20px;
+  }
+  .button_sign {
+    display: none;
+  }
+  .burger {
+    margin-right: 20px;
   }
 }
