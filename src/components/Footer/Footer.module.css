@@ -10,8 +10,8 @@
 .logo {
   font-size: 15px;
   font-weight: 700;
-  /* margin-left: 120px;
-    margin-right: 160px; */
+  margin-left: 120px;
+    margin-right: 160px;
   color: rgba(0, 0, 0, 1);
 }
 .text_block {
@@ -67,6 +67,7 @@
     display: grid;
   }
   .logo {
+    margin-left: 0px;
     text-align: center;
     margin-top: 62px;
     margin-bottom: 54px;
