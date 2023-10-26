@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/QP-frontend-task/static/css/main.acf2e6f8.css",
+    "main.css": "/QP-frontend-task/static/css/main.ff563834.css",
     "main.js": "/QP-frontend-task/static/js/main.f405cecc.js",
     "static/media/MuseoSansCyrl500.ttf": "/QP-frontend-task/static/media/MuseoSansCyrl500.ee7833fbba185f25200a.ttf",
     "static/media/hero.png": "/QP-frontend-task/static/media/hero.9273608695007a33420a.png",
@@ -14,11 +14,11 @@
     "static/media/newLineRight.svg": "/QP-frontend-task/static/media/newLineRight.2e7b062ba2511e3c2a64970b3b18e124.svg",
     "static/media/newLineLeft.svg": "/QP-frontend-task/static/media/newLineLeft.2ed5eec8eeda5b8f11f8ee6914f1d427.svg",
     "static/media/doteLineRight.svg": "/QP-frontend-task/static/media/doteLineRight.5aec6b20f159a78e52d4171565fdcf10.svg",
-    "main.acf2e6f8.css.map": "/QP-frontend-task/static/css/main.acf2e6f8.css.map",
+    "main.ff563834.css.map": "/QP-frontend-task/static/css/main.ff563834.css.map",
     "main.f405cecc.js.map": "/QP-frontend-task/static/js/main.f405cecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.acf2e6f8.css",
+    "static/css/main.ff563834.css",
     "static/js/main.f405cecc.js"
   ]
 }
