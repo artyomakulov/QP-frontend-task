@@ -155,3 +155,39 @@
     width: 508px;
   }
 }
+@media screen and (max-width: 320px) {
+  .container_contacts {
+    width: 320px;
+  }
+  .contacts {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 32px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .text {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .text2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .message_form_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+  }
+  .message_form {
+    margin-top: 48px;
+  }
+  .input {
+    width: 228px;
+  }
+  .button {
+    margin-top: 18px;
+    margin-bottom: 48px;
+  }
+}
