@@ -10,7 +10,7 @@ export const Main = () => {
       <div className={css.container_main}>
         <div className={css.content}>
           <h2 className={css.title}>
-            Getting Started Is <br />
+            Getting<br className={css.mobTransfer}/> Started Is <br />
             <span className={css.title_highlight}>Fast & Easy</span>
           </h2>
           <ul className={css.list}>

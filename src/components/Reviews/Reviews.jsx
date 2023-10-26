@@ -41,9 +41,11 @@ export const Reviews = () => {
               <img src={quotes} alt="quotes" width={33} height={27} />
             </div>
             <p className={css.text}>
-              This magical product actually works! It has radically <br />
-              changed the way we build our audiences. <br /> Increasing new
-              customer sales by 6x in our most <br /> mature market.
+              This magical product actually works! It has radically{' '}
+              <br className={css.transfer} />
+              changed the way we build our audiences.{' '}
+              <br className={css.transfer} /> Increasing new customer sales by
+              6x in our most <br className={css.transfer} /> mature market.
             </p>
             <div className={css.numbers}>
               <span className={css.counter_first}>01 </span>

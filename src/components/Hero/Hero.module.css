@@ -101,6 +101,7 @@
   .container_hero {
     width: 320px;
     height: 833px;
+    margin-bottom: 80px;
   }
   .text_block {
     margin-top: 0;
