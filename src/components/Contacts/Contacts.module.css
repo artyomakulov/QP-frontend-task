@@ -1,3 +1,5 @@
+@import url('../../utils/colors.css');
+
 .container_contacts {
   width: 1440px;
   margin: auto;
@@ -15,14 +17,14 @@
 .title {
   font-family: 'Museo Sans Cyrl';
   font-size: 56px;
-  color: rgba(51, 51, 51, 1);
+  color: var(--gray1);
   margin: 0;
 }
 .text {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 18px;
-  color: rgba(79, 79, 79, 1);
+  color: var(--gray2);
   margin-top: 32px;
   margin-bottom: 48px;
   line-height: 30px;
@@ -31,7 +33,7 @@
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 18px;
-  color: rgba(79, 79, 79, 1);
+  color: var(--gray2);
   margin: 0;
   margin-bottom: 24px;
   line-height: 27px;
@@ -40,7 +42,7 @@
   font-family: 'Museo Sans Cyrl';
   font-weight: 500;
   font-size: 15px;
-  color: rgba(51, 51, 51, 1);
+  color: var(--gray1);
   margin-top: 16px;
   margin-bottom: 8px;
 }
@@ -48,7 +50,7 @@
   width: 585px;
   background-color: #fff;
   border-radius: 20px;
-  border: 2px solid rgba(98, 72, 255, 1);
+  border: 2px solid var(--violet);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,10 +82,10 @@
 }
 .input:focus {
   border-color: rgba(130, 130, 130, 1);
-  color: rgba(79, 79, 79, 1);
+  color: var(--gray2);
 }
 .input:hover {
-  border-color: rgba(79, 79, 79, 1);
+  border-color: var(--gray2);
 }
 .input:focus:not(:focus-visible) {
   outline: none;
@@ -101,7 +103,7 @@
 .button {
   width: 172px;
   height: 54px;
-  background-color: rgba(98, 72, 255, 1);
+  background-color: var(--violet);
   font-family: 'Museo Sans Cyrl';
   font-size: 16px;
   border-radius: 60px;

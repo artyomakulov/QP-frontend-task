@@ -1,3 +1,5 @@
+@import url('../../utils/colors.css');
+
 .container_faq {
   width: 1440px;
   margin: auto;
@@ -20,11 +22,11 @@
   height: 28px;
   font-size: 24px;
   margin: 0;
-  color: rgba(51, 51, 51, 1);
+  color:  var(--gray1);
 }
 .item {
   width: 995px;
-  border: 2px solid rgba(98, 72, 255, 1);
+  border: 2px solid var(--violet);
   border-radius: 20px;
   margin-bottom: 16px;
 }
@@ -38,7 +40,7 @@
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 16px;
-  color: rgba(79, 79, 79, 1);
+  color: var(--gray2);
   margin-left: 40px;
   margin-right: 205px;
   margin-top: -12px;
