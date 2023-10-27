@@ -119,6 +119,13 @@ ul {
     margin-left: 360px;
     margin-top: -100px;
   }
+
+  .item:nth-child(3) {
+    transform: translateY(-40px);
+  }
+  .item:nth-child(4) {
+    transform: translateY(-20px);
+  }
   .line1,
   .line2,
   .line3 {
@@ -133,13 +140,13 @@ ul {
   .new_line2 {
     display: block;
     position: absolute;
-    top: 480px;
-    right: 370px;
+    top: -60px;
+    right: -30px;
   }
   .new_line3 {
     display: block;
     position: absolute;
-    top: 650px;
+    top: 630px;
     right: 200px;
   }
   .list {
@@ -176,6 +183,14 @@ ul {
   .item:nth-child(odd) {
     margin-top: initial;
   }
+
+  .item:nth-child(3) {
+    transform: translateY(0);
+  }
+  .item:nth-child(4) {
+    transform: translateY(0);
+  }
+
   .new_line1,
   .new_line2,
   .new_line3 {
