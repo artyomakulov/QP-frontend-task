@@ -3,8 +3,22 @@ import sliderLeft from '../../images/slider left.svg';
 import sliderRight from '../../images/slider right.svg';
 import reviewer from '../../images/reviewer.png';
 import quotes from '../../images/quotes.png';
+import React, { useState } from 'react';
 
 export const Reviews = () => {
+  const [counter, setCounter] = useState(1);
+  const handleSliderLeftClick = () => {
+    if (counter > 1) {
+      setCounter(prevCounter => prevCounter - 1);
+    }
+  };
+
+  const handleSliderRightClick = () => {
+    if (counter < 4) {
+      setCounter(prevCounter => prevCounter + 1);
+    }
+  };
+
   return (
     <>
       <div className={css.container_review}>
@@ -16,14 +30,29 @@ export const Reviews = () => {
               <span className={css.title_highlight}>Invest</span>
             </h2>
             <button className={`${css.buttons2} ${css.leftBtn}`}>
-              <img src={sliderLeft} alt="slider left" width={24} />
+              <img
+                src={sliderLeft}
+                alt="slider left"
+                width={24}
+                onClick={handleSliderLeftClick}
+              />
             </button>
             <div className={css.slider}>
               <button className={css.buttons}>
-                <img src={sliderLeft} alt="slider left" width={24} />
+                <img
+                  src={sliderLeft}
+                  alt="slider left"
+                  width={24}
+                  onClick={handleSliderLeftClick}
+                />
               </button>
               <button className={css.buttons}>
-                <img src={sliderRight} alt="slider right" width={24} />
+                <img
+                  src={sliderRight}
+                  alt="slider right"
+                  width={24}
+                  onClick={handleSliderRightClick}
+                />
               </button>
             </div>
           </div>
@@ -48,12 +77,17 @@ export const Reviews = () => {
               6x in our most <br className={css.transfer} /> mature market.
             </p>
             <div className={css.numbers}>
-              <span className={css.counter_first}>01 </span>
+              <span className={css.counter_first}>0{counter} </span>
               <span className={css.counter_second}>/ 04</span>
             </div>
           </div>
           <button className={`${css.buttons2} ${css.rightBtn}`}>
-            <img src={sliderRight} alt="slider right" width={24} />
+            <img
+              src={sliderRight}
+              alt="slider right"
+              width={24}
+              onClick={handleSliderRightClick}
+            />
           </button>
         </div>
       </div>

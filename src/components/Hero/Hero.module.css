@@ -50,7 +50,11 @@
 }
 .button:hover {
   background-color: rgba(113, 129, 252, 1);
+  transform: rotate(1turn) scale(1.05);
+  transition: transform 0.3s ease; 
 }
+
+
 .button:focus,
 .button:active {
   background-color: rgba(53, 75, 244, 1);
