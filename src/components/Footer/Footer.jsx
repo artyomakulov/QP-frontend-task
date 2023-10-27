@@ -6,7 +6,7 @@ export const Footer = () => {
       <div>
         <div className={css.container}>
           <div className={css.logo}>
-            <a href="/" className={css.link}>
+            <a href="/QP-frontend-task" className={css.link}>
               LOGO
             </a>
           </div>
@@ -37,32 +37,32 @@ export const Footer = () => {
             <nav>
               <ul className={css.list}>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     About us
                   </a>
                 </li>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     Instructions
                   </a>
                 </li>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     Platforms
                   </a>
                 </li>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     Contact Us
                   </a>
                 </li>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     Sign in
                   </a>
                 </li>
                 <li className={css.list_item}>
-                  <a href="/" className={css.link}>
+                  <a href="/QP-frontend-task" className={css.link}>
                     Sign up for free
                   </a>
                 </li>
