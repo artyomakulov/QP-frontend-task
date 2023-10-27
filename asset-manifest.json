@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QP-frontend-task/static/css/main.394d62fc.css",
-    "main.js": "/QP-frontend-task/static/js/main.287f9179.js",
+    "main.js": "/QP-frontend-task/static/js/main.5e3ffd41.js",
     "static/media/MuseoSansCyrl500.ttf": "/QP-frontend-task/static/media/MuseoSansCyrl500.ee7833fbba185f25200a.ttf",
     "static/media/hero.png": "/QP-frontend-task/static/media/hero.9273608695007a33420a.png",
     "index.html": "/QP-frontend-task/index.html",
@@ -15,10 +15,10 @@
     "static/media/newLineLeft.svg": "/QP-frontend-task/static/media/newLineLeft.2ed5eec8eeda5b8f11f8ee6914f1d427.svg",
     "static/media/doteLineRight.svg": "/QP-frontend-task/static/media/doteLineRight.5aec6b20f159a78e52d4171565fdcf10.svg",
     "main.394d62fc.css.map": "/QP-frontend-task/static/css/main.394d62fc.css.map",
-    "main.287f9179.js.map": "/QP-frontend-task/static/js/main.287f9179.js.map"
+    "main.5e3ffd41.js.map": "/QP-frontend-task/static/js/main.5e3ffd41.js.map"
   },
   "entrypoints": [
     "static/css/main.394d62fc.css",
-    "static/js/main.287f9179.js"
+    "static/js/main.5e3ffd41.js"
   ]
 }
