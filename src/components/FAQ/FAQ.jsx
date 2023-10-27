@@ -72,7 +72,13 @@ export const FAQ = () => {
                     </button>
                   </div>
                   {openQuestion === item.id && (
-                    <p className={css.answer}>{item.answer}</p>
+                    <p
+                      className={`${css.answer} ${
+                        openQuestion === item.id ? css.open : ''
+                      }`}
+                    >
+                      {item.answer}
+                    </p>
                   )}
                 </li>
               ))}

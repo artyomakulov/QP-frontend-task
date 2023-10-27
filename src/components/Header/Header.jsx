@@ -2,12 +2,17 @@ import css from './Header.module.css';
 import vector from '../../images/vector.svg';
 import burger from '../../images/burger.svg';
 import { useState } from 'react';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 
 export const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+  };
+  const handleClick = () => {
+    Notify.success('Your future functional');
   };
   return (
     <header>
@@ -59,7 +64,7 @@ export const Header = () => {
             EN
             <img src={vector} alt="vector" width={20} />
           </button>
-          <button className={css.button_sign}>Sign in for free</button>
+          <button className={css.button_sign} onClick={handleClick}>Sign in for free</button>
         </div>
         <div className={css.burger_container}>
           <button className={css.burger} onClick={toggleMenu}>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import css from './Contacts.module.css';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 export const Contacts = () => {
   const [name, setName] = useState('');
@@ -35,6 +36,10 @@ export const Contacts = () => {
     setIsFormValid(
       name !== '' && email !== '' && isValidEmail && message !== ''
     );
+  };
+
+  const handleClick = () => {
+    Notify.success('Your future functional');
   };
 
   return (
@@ -113,6 +118,7 @@ export const Contacts = () => {
                   className={css.button}
                   type="submit"
                   disabled={!isFormValid}
+                  onClick={handleClick}
                 >
                   SEND
                 </button>

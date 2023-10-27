@@ -22,7 +22,7 @@
   height: 28px;
   font-size: 24px;
   margin: 0;
-  color:  var(--gray1);
+  color: var(--gray1);
 }
 .item {
   width: 995px;
@@ -37,6 +37,18 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@keyframes fadeInOut {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 500px;
+    opacity: 1;
+  }
+}
+
 .answer {
   font-family: 'Montserrat';
   font-weight: 400;
@@ -47,7 +59,11 @@
   margin-top: -12px;
   margin-bottom: 32px;
   line-height: 27px;
+  max-height: 500px;
+  overflow: hidden;
+  animation: fadeInOut 0.3s ease;
 }
+
 .button {
   border: 0;
   background-color: #fff;
@@ -100,5 +116,8 @@
     display: flex;
     align-items: center;
     font-size: 18px;
+  }
+  .answer {
+    margin: 0px 24px 24px 16px;
   }
 }
