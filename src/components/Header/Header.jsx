@@ -26,32 +26,32 @@ export const Header = () => {
           <nav>
             <ul className={css.list}>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   How it works
                 </a>
               </li>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   About
                 </a>
               </li>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   Instructions
                 </a>
               </li>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   Accounts
                 </a>
               </li>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   Platforms
                 </a>
               </li>
               <li className={css.nav_item}>
-                <a href="/" className={css.link}>
+                <a href="/QP-frontend-task" className={css.link}>
                   Contact
                 </a>
               </li>
@@ -75,32 +75,32 @@ export const Header = () => {
               <nav>
                 <ul className={css.list}>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       How it works
                     </a>
                   </li>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       About
                     </a>
                   </li>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       Instructions
                     </a>
                   </li>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       Accounts
                     </a>
                   </li>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       Platforms
                     </a>
                   </li>
                   <li className={css.nav_item}>
-                    <a href="/" className={css.link}>
+                    <a href="/QP-frontend-task" className={css.link}>
                       Contact
                     </a>
                   </li>
